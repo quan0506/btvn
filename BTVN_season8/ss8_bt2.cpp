@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "funcTinhtoan.h"
+#include "tinhtoan.h"
 int main(){
 	int n;
  	printf("nhap so n:");
@@ -21,8 +21,8 @@ int main(){
   			break;
 		  	}
 	}
-	
+
 	printf("so nguyen to nho nhat lon hon gia tri trong mang la: %d",sntnn);
-  	
+
 
 }

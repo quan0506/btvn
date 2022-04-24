@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "funcNhapdulieu.h"
-#include "funcTinhtoan.h"
+#include "nhhapdulieu.h"
+#include "Tinhtoan.h"
 int main(){
 	int n;
 	printf("nhap so n:");

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "funcTinhtoan.h"
+#include "tinhtoan.h"
 int main(){
 	int a,b,c;
 	printf("nhap a:");
