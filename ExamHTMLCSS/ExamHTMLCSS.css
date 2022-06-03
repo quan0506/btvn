@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fafafa;
+    font-size: 14px;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-align: left;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover{
+    color: #111111;
+}
+.box{
+    width:860px;
+    height: 700px ;
+    background-color: green;
+    margin:160px 190px 200px 230px;
+
+}
+.main-box{
+
+    background: #f4f4f4;
+    color: #5a5656;
+    display: grid;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    margin: 100px;
+    min-height: 100vh;
+    place-items: center;
+}
+
+a { text-decoration: none; }
+
+h1 { font-size: 1em; }
+
+h1, p {
+    margin-bottom: 10px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+
+#login {
+    margin: 50px auto;
+    width: 300px;
+}
+
+form fieldset input[type="text"],
+input[type="password"] {
+    appearance: none;
+    background: #e5e5e5;
+    border: none;
+    border-radius: 3px;
+    color: #5a5656;
+    font-family: inherit;
+    font-size: 14px;
+    height: 50px;
+    outline: none;
+    padding: 0px 10px;
+    width: 280px;
+}
+
+form fieldset input[type="submit"] {
+    appearance: none;
+    background-color: #008dde;
+    border: none;
+    border-radius: 3px;
+    color: #f4f4f4;
+    cursor: pointer;
+    font-family: inherit;
+    height: 50px;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+form fieldset a {
+    color: #5a5656;
+    font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+.btn-round {
+    background: #5a5656;
+    border-radius: 50%;
+    color: #f4f4f4;
+    display: block;
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 125px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50px;
+}
+.facebook-before {
+    background: #0064ab;
+    border-radius: 3px 0px 0px 3px;
+    color: #f4f4f4;
+    display: block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
+.facebook {
+    background: #0079ce;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+    color: #f4f4f4;
+    cursor: pointer;
+    height: 50px;
+    text-transform: uppercase;
+    width: 250px;
+}
+.google-before {
+    background: orangered;
+    border-radius: 3px 0px 0px 3px;
+    color: #f4f4f4;
+    display: block;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
+.google {
+    background: red;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
+    color: #f4f4f4;
+    cursor: pointer;
+    height: 50px;
+    text-transform: uppercase;
+    width: 250px;
+}
